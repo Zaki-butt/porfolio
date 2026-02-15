@@ -5,18 +5,16 @@ import { Section } from "@/components/ui/section";
 import { motion } from "framer-motion";
 
 const technologies = [
-  "TypeScript",
+  "Php",
+  "Laravel",
+  "Python",
+  "Django",
+  "JavaScript",
   "React",
-  "Next.js",
   "Node.js",
-  "Tailwind CSS",
-  "PostgreSQL",
-  "GraphQL",
-  "Docker",
-  "AWS",
-  "Framer Motion",
+  "MySQL",
   "Git",
-  "Prisma",
+  "Playwright",
 ];
 
 export function TechStack() {

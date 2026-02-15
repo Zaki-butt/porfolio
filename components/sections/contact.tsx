@@ -17,22 +17,17 @@ export function Contact() {
         
         <div className="flex gap-4">
             <Button size="icon" variant="ghost" asChild>
-                <Link href="https://github.com" target="_blank" aria-label="GitHub">
+                <Link href={`https://github.com/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`} target="_blank" aria-label="GitHub">
                     <Github className="h-5 w-5" />
                 </Link>
             </Button>
             <Button size="icon" variant="ghost" asChild>
-                <Link href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <Link href="https://www.linkedin.com/in/muhammad-zakria-77557a185/.com" target="_blank" aria-label="LinkedIn">
                     <Linkedin className="h-5 w-5" />
                 </Link>
             </Button>
             <Button size="icon" variant="ghost" asChild>
-                <Link href="https://twitter.com" target="_blank" aria-label="Twitter">
-                    <Twitter className="h-5 w-5" />
-                </Link>
-            </Button>
-            <Button size="icon" variant="ghost" asChild>
-                <Link href="mailto:hello@example.com" aria-label="Email">
+                <Link href="mailto:zakriabutt08@gmail.com" aria-label="Email">
                     <Mail className="h-5 w-5" />
                 </Link>
             </Button>
