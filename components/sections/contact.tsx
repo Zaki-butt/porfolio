@@ -34,7 +34,7 @@ export function Contact() {
         </div>
       </div>
       <div className="container mx-auto px-4 md:px-6 max-w-5xl mt-12 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Software Engineer Portfolio. Built with Next.js & Tailwind.
+        © {new Date().getFullYear()} Software Engineer Portfolio.
       </div>
     </footer>
   );
